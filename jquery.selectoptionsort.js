@@ -2,6 +2,7 @@
 // http://en.wikipedia.org/wiki/Merge_sort
 // author : triyadhi surahman (tscf.wordpress.com) 2011
 // license : MIT
+// https://raw.github.com/yadhi/jquery-select-option-sort/master/jquery.selectoptionsort.js
 
 ( function ($) {
 	
