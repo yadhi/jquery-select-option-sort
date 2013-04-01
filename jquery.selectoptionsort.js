@@ -22,6 +22,7 @@
 			// populate array element
 			// we need the 0 element as sort value
 			var content = new Array();
+			var selectedValue = $(this).val();
 			
 			if (options.orderBy == "value") {
 				$(this).children().each( function() {
@@ -73,6 +74,8 @@
 					);
 				}
 			}
+			// attrib selected element.
+			$("select[name=" + $(this).context.name + "]").find("option[value=" + selectedValue + "]").attr("selected", true);
 		});
 		
 	};
